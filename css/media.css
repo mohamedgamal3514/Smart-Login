@@ -1,0 +1,26 @@
+/* ----------Bootstrap Breakpoints---------- */
+/* ----------small secreen---------- */
+@media (min-width: 576px) {}
+
+/* ----------medium secreen---------- */
+@media (min-width: 768px) {
+    main h1 {
+        font-size: 2.5rem;
+    }
+    .parent {
+        flex-direction: row;
+    }
+   .container .parent .item {
+        width: 49%;
+        background-color: tomato;
+    }
+}
+
+/* ----------large secreen---------- */
+@media (min-width: 992px) {}
+
+/* ----------x large secreen---------- */
+@media (min-width: 1200px) {}
+
+/* ----------xx large secreen---------- */
+@media (min-width: 1400px) {}

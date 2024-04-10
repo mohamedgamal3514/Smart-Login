@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -----------link font Awesome-------------- -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- -----------link google fonts-------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- -----------link Bootstrap css-------------- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- -----------link css-------------- -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Smart Login System | Signup</title>
+</head>
+
+<body class="vh-100">
+    <div class="container text-center d-flex justify-content-center py-5" id="SignUpPage">
+        <main class="w-75 mx-auto py-4">
+            <h1 class="p-x-5">Smart Login System</h1>
+            <form class="p-4">
+                <input type="text" name="userSignUpName" id="userSignUpName" placeholder="Enter Your Name"
+                    class="form-control mb-4">
+                <input type="email" name="UserSignUpEmail" id="UserSignUpEmail" placeholder="Enter Your Email"
+                    class="form-control mb-4">
+                <div class="position-relative">
+                    <input type="password" name="userPassword" id="UserSignUpPassword" placeholder="Enter Your Password"
+                        class="form-control">
+                    <i class="fa fa-solid fa-eye-slash text-white position-absolute end-0 top-50 translate-middle pe-2 cursor-pointer"
+                        id="showIcon" onclick="showPasswordSignUp()"></i>
+                </div>
+                <div class="text-center mt-3 fs-5" id="signUpAlert"></div>
+                <button class="w-100 btn btn-outline-info my-4" type="button" onclick="signUp()">Sign Up</button>
+            </form>
+            <p class="text-white fs-6">You have an account ? <a class="text-white text-decoration-none"
+                    href="./index.html">Sign In</a>
+            </p>
+        </main>
+    </div>
+
+
+    <!-- -----------link Bootstrap JS-------------- -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <!-- -----------link JS-------------- -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

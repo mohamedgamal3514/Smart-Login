@@ -1,0 +1,77 @@
+*,
+::after,
+::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* ---------------------------------General Style--------------------------------- */
+:root {
+	--bg-color: #24353f;
+	--font-color: #17a2b8;
+	--white-color: #fff;
+}
+
+a {
+	transition: all 0.2s;
+}
+
+a:hover {
+	color: var(--font-color) !important;
+}
+
+body {
+	font-family: "Titillium Web", sans-serif;
+	background-color: var(--bg-color);
+	line-height: 1.8;
+}
+
+/* ---------------------------------Login Page Style--------------------------------- */
+
+#loginPage main,
+#SignUpPage main {
+	box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+main h1 {
+	color: var(--font-color);
+	font-size: 1rem;
+}
+
+input {
+	background-color: transparent !important;
+	color: var(--white-color) !important;
+}
+
+::placeholder {
+	color: var(--font-color) !important;
+}
+
+.btn {
+	color: var(--font-color);
+	font-size: 1.2rem;
+}
+
+main form .btn:hover {
+	color: var(--white-color);
+	background-color: var(--font-color);
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+/* ---------------------------------Home Page Style--------------------------------- */
+header,
+.welcome_box {
+	box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.home_welcome {
+	height: calc(100vh - 60px);
+}
+
+.welcome_box h2 {
+	color: var(--font-color);
+}
